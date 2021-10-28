@@ -43,7 +43,7 @@ print('index()方法的返回值：',names.index('Jan'))#参数为列表中的va
 
 
 
-#4 清楚数据：clear()
+#4 清空数据：clear()
 print(names.clear())#使用clear后清空列表中的所有数值
 
 
