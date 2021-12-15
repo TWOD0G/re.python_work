@@ -1,0 +1,26 @@
+==> 2021-12-13 12:34:57 <==
+# cmd: C:\ProgramData\Anaconda3\Scripts\conda-script.py create -p C:\ProgramData\Anaconda3\envs\study_flask -y python=3.7
+# conda version: 4.7.10
++defaults::ca-certificates-2021.10.26-haa95532_2
++defaults::certifi-2021.10.8-py37haa95532_0
++defaults::openssl-1.1.1l-h2bbff1b_0
++defaults::pip-21.2.4-py37haa95532_0
++defaults::python-3.7.11-h6244533_0
++defaults::setuptools-58.0.4-py37haa95532_0
++defaults::sqlite-3.36.0-h2bbff1b_0
++defaults::vc-14.2-h21ff451_1
++defaults::vs2015_runtime-14.27.29016-h5e58377_2
++defaults::wheel-0.37.0-pyhd3eb1b0_1
++defaults::wincertstore-0.2-py37haa95532_2
+# update specs: ['python=3.7']
+==> 2021-12-13 12:35:12 <==
+# cmd: C:\ProgramData\Anaconda3\Scripts\conda-script.py install -p C:/ProgramData/Anaconda3/envs/study_flask flask -y
+# conda version: 4.7.10
++defaults::click-8.0.3-pyhd3eb1b0_0
++defaults::dataclasses-0.8-pyh6d0b6a4_7
++defaults::flask-2.0.2-pyhd3eb1b0_0
++defaults::itsdangerous-2.0.1-pyhd3eb1b0_0
++defaults::jinja2-3.0.2-pyhd3eb1b0_0
++defaults::markupsafe-2.0.1-py37h2bbff1b_0
++defaults::werkzeug-2.0.2-pyhd3eb1b0_0
+# update specs: ['flask']

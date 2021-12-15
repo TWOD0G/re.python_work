@@ -1,0 +1,38 @@
+<html lang="zh_CN">
+    <head>
+        <title>课程表查询系统</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../static/css/index.css">
+    </head>
+        <script type="text/javascript">
+        window.onload = function () {
+                var tanchu = "{{ tanchu }}"
+                if(tanchu){
+                    alert('你的密码或用户名输入错误')
+                }
+        }
+    </script>
+    <body>
+        <div id="bg">
+            <img src="../static/img/star.jpeg">
+            <form action="/timetable" method="POST">
+                <div id="un">
+                    <div class="titles"><p>用户名:</p></div>
+                    <div class="inputs">
+                        <input type="text" placeholder="请输入用户名" name="username" required="required">
+                    </div>
+                </div>
+                <div id="pw">
+                    <div class="titles"><p>密码:</p></div>
+                    <div class="inputs">
+                        <input type="password" placeholder="请输入用户名" name="password"  required="required">
+                    </div>
+                </div>
+                <div id="sign">
+                    <input type="submit" name="登录"  value="登录">
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>
